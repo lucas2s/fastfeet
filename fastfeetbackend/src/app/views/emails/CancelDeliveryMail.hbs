@@ -1,0 +1,16 @@
+<div>
+  <strong>Olá, {{ deliveryman }}</strong>
+  <p>A encomenda de ID {{ delivery_id }} foi cancelada.</p>
+  <p>Segue abaixo os dados:</p>
+  <p style="color: #333;">
+    <strong style="color: #7D40E7;">ID da Encomenda: </strong>
+      {{ delivery_id }}
+    <br />
+    <strong style="color: #7D40E7;">Produto: </strong>
+      {{ product }}
+    <br />
+    <strong style="color: #7D40E7;">Cancelamento: </strong>
+      {{ date_canceled }}
+    <br />
+  </p>
+</div>

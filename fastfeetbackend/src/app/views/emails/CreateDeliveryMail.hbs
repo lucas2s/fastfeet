@@ -1,0 +1,28 @@
+<div>
+  <strong>Olá, {{ deliveryman }}</strong>
+  <p>Você possui um novo produto liberado para realizar a entrega!!!</p>
+  <p>Segue abaixo os dados:</p>
+  <p style="color: #333;">
+    <strong style="color: #7D40E7;">ID da Encomenda: </strong>
+      {{ delivery_id }}
+    <br />
+    <strong style="color: #7D40E7;">Produto: </strong>
+      {{ product }}
+    <br />
+    <strong style="color: #7D40E7;">Nome Destinatário: </strong>
+      {{ name }}
+    <br />
+    <strong style="color: #7D40E7;">Endereço: </strong>
+      {{ street }} , {{ number }}
+    <br />
+    <strong style="color: #7D40E7;">Complemento: </strong>
+      {{ complement }}
+    <br />
+    <strong style="color: #7D40E7;">Cep: </strong>
+      {{ zipcode }}
+    <br />
+    <strong style="color: #7D40E7;">Cidade: </strong>
+      {{ city }} - {{ state }}
+    <br />
+  </p>
+</div>
