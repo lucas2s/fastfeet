@@ -73,7 +73,7 @@ O Projeto desenvolvido em NodeJS com aplicação de diversas tecnologias e bibli
 :heavy_check_mark: Entre na pasta do projeto via linha de comando. <br />
 :heavy_check_mark: Executar o comando yarn para instalar as dependências. <br />
 :heavy_check_mark: Criar um container do banco de dados postgres no docker através do comando: docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 postgres<br />
-:heavy_check_mark: Criar um container do banco de dados NOSQL Redis no docker através do comando: docker run --name redisgympoint -p 6379:6379 redis-alpine<br />
+:heavy_check_mark: Criar um container do banco de dados NOSQL Redis no docker através do comando: docker run --name redis -p 6379:6379 redis-alpine<br />
 :heavy_check_mark: Realizar a configuração do arquivo de variáveis globais ".env" e salvar na pasta raiz do projeto. O arquivo ".env.example" serve como exemplo para configuração. <br
 :heavy_check_mark: Executar o comando "yarn sequelize db:migrate" para criação das tabelas. <br />
 :heavy_check_mark: Executar o comando "yarn sequelize db:seed:all" para criação de conteudos nas tabelas. <br />
